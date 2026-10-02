@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Akshith Vodnala - Software Development Engineer specializing in Java, Spring Boot, Relational & NoSQL Databases, and Applied DSA.">
+    <title>Akshith Vodnala | Full-Stack Software Engineer & Systems Developer</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="navbar">
+        <div class="logo">
+            <span class="logo-icon">☕</span> Akshith.dev
+        </div>
+        <nav class="nav-links">
+            <a href="#hero" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#contact" class="btn-primary">Contact</a>
+        </nav>
+        <button class="mobile-menu-toggle" id="menuToggle" aria-label="Toggle Navigation">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-content">
+            <div class="glow-sphere indigo"></div>
+            <div class="glow-sphere emerald"></div>
+            
+            <span class="badge">🚀 Full-Stack SDE & Systems Developer</span>
+            <h1>Architecting Scalable <br><span class="gradient-text">Enterprise Java & DSA Systems</span></h1>
+            <p>Specializing in high-throughput Spring Boot microservices, classical Data Structures & Algorithms (Dijkstra, LRU Caching, Token Bucket), and robust SQL/NoSQL transactional architectures.</p>
+            
+            <div class="hero-buttons">
+                <a href="#projects" class="btn-primary-large">View Engineering Projects</a>
+                <a href="#contact" class="btn-secondary-large">Get in Touch</a>
+            </div>
+            
+            <div class="social-links">
+                <a href="https://github.com/Akshith-Vodnala" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/akshith-vodnala-048160295/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="mailto:vodnalaakshith@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="section-container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-card glass">
+                    <h3>Engineering Philosophy</h3>
+                    <p>I am a B.Tech Computer Science student at <strong>SR University</strong> (2023--2027) with a passion for software design patterns, concurrency controls, and algorithmic efficiency. I build backend systems where performance, low latency, and data integrity are non-negotiable.</p>
+                </div>
+                <div class="about-card glass">
+                    <h3>Core Technical Focus</h3>
+                    <p>My work combines modern <strong>Java 17 & Spring Boot 3</strong> with applied DSA: embedding classical algorithms (like Min-Heap Dijkstra and custom LRU caches) into production web backends alongside MySQL and MongoDB databases.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="section-container">
+            <h2 class="section-title">Technical Expertise</h2>
+            <div class="skills-grid">
+                <div class="skills-grid-item">
+                    <div class="skills-category glass">
+                        <h4><i class="fa-brands fa-java"></i> Backend & Frameworks</h4>
+                        <ul>
+                            <li>Java 17 (Core & Advanced)</li>
+                            <li>Spring Boot 3 (Spring MVC, REST APIs)</li>
+                            <li>Spring Data JPA & Hibernate ORM</li>
+                            <li>Thymeleaf Template Engine</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="skills-grid-item">
+                    <div class="skills-category glass">
+                        <h4><i class="fa-solid fa-code-fork"></i> Applied DSA & Systems</h4>
+                        <ul>
+                            <li>Dijkstra Graph Shortest Path (O((V+E) log V))</li>
+                            <li>Custom LRU Cache (Doubly Linked List + HashMap)</li>
+                            <li>Token Bucket Rate Limiting Algorithm</li>
+                            <li>Multithreading & Concurrency Locks (ReentrantLock)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="skills-grid-item">
+                    <div class="skills-category glass">
+                        <h4><i class="fa-solid fa-database"></i> Databases & Cloud Tools</h4>
+                        <ul>
+                            <li>Relational SQL (MySQL & Embedded H2)</li>
+                            <li>NoSQL Document DB (MongoDB)</li>
+                            <li>AWS Cloud Web Architectures</li>
+                            <li>Git, GitHub & Maven Build Automation</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="section-container">
+            <h2 class="section-title">Featured Enterprise Projects</h2>
+            <div class="projects-container">
+                
+                <!-- Project 1: FinFlow -->
+                <div class="project-card glass">
+                    <div class="project-header">
+                        <span class="project-number">01</span>
+                        <div class="project-tags">
+                            <span>Spring Boot</span>
+                            <span>LRU Cache DSA</span>
+                            <span>Embedded SQL</span>
+                        </div>
+                    </div>
+                    <h3>FinFlow: Payment Gateway & Transaction Ledger</h3>
+                    <p>A high-throughput financial transaction processing portal. Implements an in-memory O(1) LRU Cache (Doubly Linked List + HashMap) for currency conversion, a Token Bucket rate-limiter for anti-spam protection, and idempotency locks to eliminate double-spending race conditions.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/Akshith-Vodnala/FinFlow" target="_blank" class="btn-text">View Repository <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <!-- Project 2: LogiRoute -->
+                <div class="project-card glass">
+                    <div class="project-header">
+                        <span class="project-number">02</span>
+                        <div class="project-tags">
+                            <span>Dijkstra Algorithm</span>
+                            <span>Leaflet GIS</span>
+                            <span>Spring Boot</span>
+                        </div>
+                    </div>
+                    <h3>LogiRoute: Autonomous Logistics & Dispatch Engine</h3>
+                    <p>An autonomous shipment routing engine utilizing classical Dijkstra's Shortest Path Algorithm with a Min-Heap (PriorityQueue) on an Adjacency List graph. Features dynamic traffic edge-weight recalculation and interactive route visualization on a Leaflet.js GIS map.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/Akshith-Vodnala/LogiRoute" target="_blank" class="btn-text">View Repository <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <!-- Project 3: EventSync -->
+                <div class="project-card glass">
+                    <div class="project-header">
+                        <span class="project-number">03</span>
+                        <div class="project-tags">
+                            <span>MongoDB NoSQL</span>
+                            <span>Spring Boot 3</span>
+                            <span>Concurrency</span>
+                        </div>
+                    </div>
+                    <h3>EventSync: Event Booking & Management Portal</h3>
+                    <p>A full-stack event scheduling platform powered by Spring Boot and MongoDB. Features synchronized real-time seat availability controls, client booking status tracking, and an organizer dashboard for accepting/rejecting bookings with automatic seat restoration.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/Akshith-Vodnala/EventSync" target="_blank" class="btn-text">View Repository <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section">
+        <div class="section-container">
+            <h2 class="section-title">Certifications & Training</h2>
+            <div class="certifications-grid">
+                <div class="cert-card glass">
+                    <div class="cert-icon"><i class="fa-brands fa-aws"></i></div>
+                    <h4>AWS Academy Graduate</h4>
+                    <p>Cloud Web Application Builder</p>
+                </div>
+                <div class="cert-card glass">
+                    <div class="cert-icon"><i class="fa-solid fa-microchip"></i></div>
+                    <h4>Computer Systems Foundations</h4>
+                    <p>An Introduction to Computers and Computer Systems</p>
+                </div>
+                <div class="cert-card glass">
+                    <div class="cert-icon"><i class="fa-solid fa-network-wired"></i></div>
+                    <h4>Cisco Certified Network Associate</h4>
+                    <p>CCNA Routing, Switching & Network Protocols</p>
+                </div>
+                <div class="cert-card glass">
+                    <div class="cert-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                    <h4>Software Engineering Virtual Internship</h4>
+                    <p>AICTE Technical Experience Program</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="section-container">
+            <div class="contact-box glass">
+                <h2>Let's Connect</h2>
+                <p>I am actively seeking Software Development Engineer (SDE) internships, Java backend roles, and distributed systems engineering opportunities.</p>
+                
+                <div class="contact-methods">
+                    <a href="mailto:vodnalaakshith@gmail.com" class="contact-btn"><i class="fa-solid fa-envelope"></i> vodnalaakshith@gmail.com</a>
+                    <a href="https://www.linkedin.com/in/akshith-vodnala-048160295/" target="_blank" class="contact-btn"><i class="fa-brands fa-linkedin"></i> LinkedIn Profile</a>
+                    <a href="https://github.com/Akshith-Vodnala" target="_blank" class="contact-btn"><i class="fa-brands fa-github"></i> GitHub Profile</a>
+                </div>
+                
+                <p class="location-text"><i class="fa-solid fa-location-dot"></i> Warangal, Telangana, India</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Akshith Vodnala. Full-Stack Software Development Engineer.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="index.js"></script>
+</body>
+</html>
